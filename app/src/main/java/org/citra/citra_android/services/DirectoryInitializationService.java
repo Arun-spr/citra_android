@@ -218,7 +218,7 @@ public final class DirectoryInitializationService extends IntentService
 
   private void copyFile(InputStream in, OutputStream out) throws IOException
   {
-    byte[] buffer = new byte[1024];
+    byte[] buffer = new byte[100];
     int read;
 
     while ((read = in.read(buffer)) != -1)
