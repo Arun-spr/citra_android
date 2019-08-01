@@ -212,7 +212,7 @@ public final class DirectoryInitializationService extends IntentService
     catch (IOException e)
     {
       Log.error("[DirectoryInitializationService] Failed to copy asset folder: " + assetFolder +
-              e.getMessage());
+             e.getMessage());
     }
   }
 
